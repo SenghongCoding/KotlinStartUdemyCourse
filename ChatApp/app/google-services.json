@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "424358432388",
+    "project_id": "chatapp-71e24",
+    "storage_bucket": "chatapp-71e24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424358432388:android:63fcb94a055464ce1a3cd1",
+        "android_client_info": {
+          "package_name": "hong.kotlin.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424358432388-bbcmodir2ehp5v8u2qc6mj1ho60191bs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX1RIdxsfQzCi2CI991EGkXuiszi6dZjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424358432388-bbcmodir2ehp5v8u2qc6mj1ho60191bs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
