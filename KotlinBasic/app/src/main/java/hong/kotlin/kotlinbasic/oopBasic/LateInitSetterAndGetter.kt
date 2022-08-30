@@ -11,6 +11,8 @@ fun main() {
     println("the Model is ${car.myModel}")
 }
 
+// !this class create for assign data
+
 class Car() {
     lateinit var owner: String
 
@@ -26,7 +28,7 @@ class Car() {
             else throw IllegalAccessException("The max speed cannot input value is small than zero")
         }
     var myModel: String = "MS"
-      private set
+        private set
 
     init {
         this.myModel = "TOYOTA"

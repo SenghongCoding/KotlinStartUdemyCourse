@@ -1,4 +1,4 @@
-package hong.kotlin.apiadroid.ui
+package hong.kotlin.apiadroid.api
 
 import hong.kotlin.apiadroid.model.Post
 import retrofit2.http.GET
