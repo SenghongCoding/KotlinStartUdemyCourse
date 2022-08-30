@@ -10,19 +10,21 @@ class HomeApp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_app)
         supportActionBar?.hide()
-
         val arrayAdapter: ArrayAdapter<*>
         val users = arrayOf(
             "Virat Kohli", "Rohit Sharma", "Steve Smith",
-            "Kane Williamson", "Ross Taylor","Virat Kohli", "Rohit Sharma", "Steve Smith",
-            "Kane Williamson", "Ross Taylor","Virat Kohli", "Rohit Sharma", "Steve Smith",
-            "Kane Williamson", "Ross Taylor","Virat Kohli", "Rohit Sharma", "Steve Smith",
-            "Kane Williamson", "Ross Taylor","Virat Kohli", "Rohit Sharma", "Steve Smith",
+            "Kane Williamson", "Ross Taylor", "Virat Kohli", "Rohit Sharma", "Steve Smith",
+            "Kane Williamson", "Ross Taylor", "Virat Kohli", "Rohit Sharma", "Steve Smith",
+            "Kane Williamson", "Ross Taylor", "Virat Kohli", "Rohit Sharma", "Steve Smith",
+            "Kane Williamson", "Ross Taylor", "Virat Kohli", "Rohit Sharma", "Steve Smith",
             "Kane Williamson", "Ross Taylor"
         )
+
         var mListView = findViewById<ListView>(R.id.MyList)
-        arrayAdapter = ArrayAdapter(this,
-            android.R.layout.simple_list_item_1,users)
+        arrayAdapter = ArrayAdapter(
+            this,
+            android.R.layout.simple_list_item_1, users
+        )
         mListView.adapter = arrayAdapter
     }
 }

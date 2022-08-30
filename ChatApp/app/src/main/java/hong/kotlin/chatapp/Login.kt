@@ -17,7 +17,6 @@ class Login : AppCompatActivity() {
     private lateinit var btnSignUp: Button
 
     private lateinit var mAuth: FirebaseAuth
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -54,6 +53,5 @@ class Login : AppCompatActivity() {
                     Toast.makeText(this@Login, "User does not exist!", Toast.LENGTH_SHORT).show()
                 }
             }
-
     }
 }
