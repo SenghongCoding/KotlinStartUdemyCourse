@@ -51,7 +51,9 @@ fun AriThmaticOperators() {
     println("Mynum is : $Mynum")
 
     Mynum++
+
     println("myNum is : $Mynum")
+
     println("myNum is : ${Mynum++}")
     println("myNum is : ${++Mynum}")
     println("myNum is : ${--Mynum}")
