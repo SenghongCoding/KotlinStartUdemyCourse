@@ -35,7 +35,6 @@ class Login : AppCompatActivity() {
         btnLogIn.setOnClickListener {
             val email = editEmail.text.toString()
             var password = editPassword.text.toString()
-
             login(email, password)
         }
 
@@ -48,6 +47,7 @@ class Login : AppCompatActivity() {
                     // Sign in success, update UI with the signed-in user's information
                     val intent = Intent(this@Login, HomeApp::class.java)
                     startActivity(intent)
+
                 } else {
                     // If sign in fails, display a message to the user.
                     Toast.makeText(this@Login, "User does not exist!", Toast.LENGTH_SHORT).show()
