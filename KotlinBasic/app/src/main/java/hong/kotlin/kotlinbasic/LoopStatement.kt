@@ -2,8 +2,6 @@ package hong.kotlin.kotlinbasic
 
 fun main() {
     BreakAndContiue()
-
-
 }
 
 fun Wile() {
@@ -43,4 +41,13 @@ fun BreakAndContiue() {
         println("$i")
     }
     println("Done with the loop")
+    for (j in 1 until 300) {
+        var test = j / 5 == 20
+        if (test) {
+            println("The test is : $test")
+            continue
+
+        }
+        println("$j")
+    }
 }
