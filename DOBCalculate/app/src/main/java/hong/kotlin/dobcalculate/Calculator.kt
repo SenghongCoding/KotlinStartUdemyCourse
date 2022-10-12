@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
 import java.lang.ArithmeticException
 
 class Calculator : AppCompatActivity() {
@@ -23,7 +22,6 @@ class Calculator : AppCompatActivity() {
         tvInput = findViewById(R.id.tvinput)
 
         clearbtn = findViewById(R.id.clear_text)
-
 
 
     }

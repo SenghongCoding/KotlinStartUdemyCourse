@@ -19,7 +19,8 @@ class MainActivity : ComponentActivity() {
             JetPackUITheme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    Greeting("Android" + ArtustCard())
+
                 }
             }
         }
@@ -31,10 +32,17 @@ fun Greeting(name: String) {
     Text(text = "Hello $name!")
 }
 
+
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     JetPackUITheme {
         Greeting("Android")
     }
+}
+
+@Composable
+fun ArtustCard(){
+    Text("Hello Senghong")
+    Text("this is me")
 }

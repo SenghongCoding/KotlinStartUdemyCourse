@@ -8,5 +8,21 @@ package hong.kotlin.kotlinbasic.fundamantals
 ? */
 
 fun main() {
+    val name = listOf("Seng hong","Dara","Pan ha","katakana")
 
+    for(name1 in name){
+        println(name1)
+    }
+
+    val number = arrayOf(1,23,4,5,4,5,3,4)
+
+
+    println("==============")
+    for (num in number){
+        if (num == 3 || num == 4) {
+            println("It is 3 and 4")
+        }else if (num/2 == 0){
+            println("----------$num")
+        }
+    }
 }

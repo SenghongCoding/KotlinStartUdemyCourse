@@ -41,8 +41,8 @@ fun BreakAndContiue() {
         println("$i")
     }
     println("Done with the loop")
-    for (j in 1 until 300) {
-        var test = j / 5 == 20
+    for (j in 1 until 30) {
+        var test = j % 5 == 2
         if (test) {
             println("The test is : $test")
             continue

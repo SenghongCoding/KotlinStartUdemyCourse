@@ -65,7 +65,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Name"
                     android:inputType="textCapWords"
-                    android:textColor="#363A43"
+                    android:textColor="#673AB7"
                     android:textColorHint="#7A8089"
                     android:textColorLink="@color/black" />
             </com.google.android.material.textfield.TextInputLayout>

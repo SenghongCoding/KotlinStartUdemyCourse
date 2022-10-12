@@ -32,6 +32,12 @@ fun main() {
     ,1,2,3,Fruit("BOO",200.00) , Fruit("TEST" , 400.30))
     println(days.contentToString())
 
+    val name = arrayOf("senghong","dara","panda","Sey ha","Kakda")
+    println(name.contentToString())
+
+    for (nm in name){
+        println(nm[1])
+    }
 
 
 

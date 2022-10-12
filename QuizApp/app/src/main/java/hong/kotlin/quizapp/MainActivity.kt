@@ -15,14 +15,15 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         var start = findViewById<Button>(R.id.start)
-        val ed_name : EditText = findViewById(R.id.ed_text)
-        start.setOnClickListener{
-            if (ed_name.text.isEmpty()){
-                Toast.makeText(this, "Please enter your name " , Toast.LENGTH_LONG).show()
-            }else{
+        val ed_name: EditText = findViewById(R.id.ed_text)
+        start.setOnClickListener {
+            if (ed_name.text.isEmpty()) {
+                Toast.makeText(this, "Please enter your name ", Toast.LENGTH_LONG).show()
+            } else {
                 val intent = Intent(this, QuizQuestion::class.java)
                 startActivity(intent)
                 finish()
+
             }
         }
     }

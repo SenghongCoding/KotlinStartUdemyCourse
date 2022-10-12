@@ -3,6 +3,12 @@ package hong.kotlin.kotlinbasic.oopBasic
 import java.util.*
 
 fun main() {
+    val Answer : Boolean = false
+
+    var simple : String? = null
+    println(simple  )
+//    !============
+
     var car = Car()
     println("branch is : ${car.myBranch} ")
     car.maSpeed = 3
@@ -34,4 +40,19 @@ class Car() {
         this.myModel = "TOYOTA"
         this.owner = "Senghong"
     }
+}
+
+class Address {
+    var name: String = " Senghong Hang"
+    var street: String = "Kampuchea"
+    var city: String = "PP"
+    var state: String? = null
+    var zip: String = "111124312"
+}
+
+fun CopyAddress(address: Address): Address {
+    val result = Address()
+    result.name = address.name
+    result.street = address.street
+    return result
 }
